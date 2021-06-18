@@ -29,7 +29,7 @@ public final class Logic {
                 }
             }
         }
-        throw new FigureNotFoundException();
+        return true;
     }
 
     public void clean() {
